@@ -126,7 +126,6 @@ main article p{
 }
 .screen_2 div h3{
    display: inline-flex;
-   font-family: 'Poppins';
    font-style: normal;
    font-weight: 400;
    font-size: 40px;
@@ -170,7 +169,7 @@ main article p{
    max-width: 298px;
 }
 .sunset article h4{
-   font-family: 'Poppins';
+   font-family: 'poppinsregular';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -180,16 +179,53 @@ main article p{
    color: #FFFFFF;
 }
 .sunset article p{
-   font-family: 'Poppins';
+   font-family: 'poppinsregular';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
-   /* or 143% */
-
-
    color: #C0C0C0;
-
+}
+.clients{
+   padding: 113px 0 140px ;
+   background-color: black;
+}
+.clients .container{
+   max-width: 1168px;
+   margin: auto;
+}
+.clients h2{
+   font-family: 'poppinsregular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 42px;
+   text-align: center;
+   color: #FFFFFF;
+}
+.clients h3{
+   font-family: 'poppinsregular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+   text-align: center;
+   color: #C0C0C0;
+   margin-bottom: 82px;
+}
+.clients .flex_block{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.clients .flex_block a{
+   display: inline-block;
+   margin: 0 10px;
+   max-width: 128px;
+}
+.clients .flex_block a img{
+   display: block;
+   width: 100%;
 }
 .bottom_icons{
    display: flex;
@@ -199,7 +235,7 @@ main article p{
    bottom: 40px;
 }
 .bottom_icons li{
-   font-family: 'Poppins';
+   font-family: 'poppinsregular';
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
@@ -230,3 +266,4 @@ main article p{
    background-image: url("../images/icon_4.svg");
    width: 10px;
 }
+
