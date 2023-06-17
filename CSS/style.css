@@ -266,4 +266,19 @@ main article p{
    background-image: url("../images/icon_4.svg");
    width: 10px;
 }
-
+.foot{
+   background-color: black;
+}
+.subscribe{
+   background-color: #FFFFFF;
+   border: 1px solid #E5E7EB;
+   border-radius: 12px;
+}
+.sub{
+   background: transparent;
+  border: none;
+}
+.send{
+   background: #000000;
+   border-radius: 11px;
+}
