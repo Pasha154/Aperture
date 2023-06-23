@@ -108,6 +108,120 @@ main article p{
    color: #C0C0C0;
 
 }
+.what_we_do{
+   background-color: black;
+   padding: 120px 120px;
+}
+
+
+.main_art{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+.what_we_do article h4{
+   font-family: 'poppinsregular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 42px;
+   text-align: center;
+   color: #FFFFFF;
+}
+.what_we_do article p{
+   font-family: 'poppinsregular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 23px;
+   line-height: 30px;
+   text-align: center;
+   color: #C0C0C0;
+
+}
+.container{
+   padding-left: 40px;
+   padding-bottom: 40px;
+}
+.product{
+   max-width: 540px;
+   display: block;
+   width: 100%;
+   position: relative;
+   padding: 421px 30px 30px 30px;
+
+
+
+}
+.what_we_do article div{
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+}
+
+
+
+.what_we_do article div h5{
+   ont-family: 'poppinsregular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+.what_we_do article div p{
+   font-family: 'poppinsregular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #C0C0C0;
+
+}
+.container{
+   max-width: 501px;
+}
+
+
+.what_we_do article a{
+   text-decoration: none;
+}
+.button_2{
+   display: inline-flex;
+   align-items: center;
+   background: #FFFFFF;
+   border-radius: 14px;
+   padding: 5px 5px 5px 10px;
+}
+.button_2::before{
+   display: inline-block;
+   content: "";
+   width: 32px;
+   height: 32px;
+   background-color: #000000;
+   border-radius: 50%;
+   margin-right: 6px;
+}
+.button_3 {
+   display: inline-flex;
+   align-items: center;
+   background: #FFFFFF;
+   border-radius: 14px;
+   padding: 5px 5px 5px 10px;
+}
+.button_3::before{
+   display: inline-block;
+   content: "";
+   width: 32px;
+   height: 32px;
+   background-color: #000000;
+   border-radius: 50%;
+   margin-right: 6px;
+}
+
 .screen_2{
 
    display: flex;
