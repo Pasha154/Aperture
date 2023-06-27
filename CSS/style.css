@@ -144,16 +144,17 @@ main article p{
    padding-left: 40px;
    padding-bottom: 40px;
 }
-.product{
+.product {
    max-width: 540px;
    display: block;
    width: 100%;
    position: relative;
    padding: 421px 30px 30px 30px;
-
-
-
 }
+
+
+
+
 .what_we_do article div{
    position: absolute;
    bottom: 30px;
@@ -268,10 +269,11 @@ main article p{
    background-size: cover;
    min-height: 600px;
    display: flex;
-   /*background-position: center center;*/
    justify-content: flex-end;
    align-items: center;
-   padding-right: 60px;
+}
+.sunset article{
+   max-width: 298px;
 }
 .monstera{
    background-image: url("../images/monstera.jpg");
@@ -395,4 +397,11 @@ main article p{
 .send{
    background: #000000;
    border-radius: 11px;
+}
+.owl-stage{
+   display: flex;
+   align-items: center;
+}
+.clients.owl-items{
+   text-align: center;
 }
