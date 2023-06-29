@@ -487,7 +487,7 @@ element.style {
    border: 1px solid #c5c5c5;
 }
 .ui-widget-content {
-   background: black;
+   background: darkred;
 }
 .ui-corner-all{
    border-bottom-right-radius:unset;
