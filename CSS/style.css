@@ -460,7 +460,7 @@ main article p{
 }
 .ui-widget-header{
    border: none;
-   background: black;
+   background: darkgrey;
    color: #FFFFFF;
 }
 
@@ -487,8 +487,53 @@ element.style {
    border: 1px solid #c5c5c5;
 }
 .ui-widget-content {
-   background: darkred;
+   background:grey;
+}
+
+element.style {
+}
+.ui-dialog .ui-dialog-title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ui-dialog .ui-dialog-content a{
+   display: flex;
+   justify-content: center;
+}
+.ui-dialog .ui-dialog-content{
+   position: relative;
+
 }
 .ui-corner-all{
-   border-bottom-right-radius:unset;
+   border-bottom-right-radius:10px;
+}
+.your_message{
+   box-sizing: border-box;
+   padding-top: 18px;
+   padding-right: 31px;
+   padding-bottom: 88px;
+   padding-left: 31px;
+   width: 100%;
+   height: 127px;
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 0px;
+   resize: none;
+   border: none;
+   font-family:'poppinsregular' ;
+   font-style: italic;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 22px;
+   text-align: left;
+   color: #FFFFFF;
+}
+.send_message{
+   display: inline-block;
+   align-items: center;
+   background: #FFFFFF;
+   border-radius: 14px;
+   padding: 5px 5px 5px 10px;
+   text-decoration: none;
+
 }
